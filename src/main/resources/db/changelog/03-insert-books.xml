@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="6" author="brucemelo">
+        <insert tableName="book">
+            <column name="title" value="1984"/>
+            <column name="author" value="George Orwell"/>
+            <column name="isbn" value="9780451524935"/>
+            <column name="published_year" value="1949"/>
+            <column name="genre" value="Dystopian"/>
+        </insert>
+        <insert tableName="book">
+            <column name="title" value="To Kill a Mockingbird"/>
+            <column name="author" value="Harper Lee"/>
+            <column name="isbn" value="9780060935467"/>
+            <column name="published_year" value="1960"/>
+            <column name="genre" value="Drama"/>
+        </insert>
+        <insert tableName="book">
+            <column name="title" value="The Great Gatsby"/>
+            <column name="author" value="F. Scott Fitzgerald"/>
+            <column name="isbn" value="9780743273565"/>
+            <column name="published_year" value="1925"/>
+            <column name="genre" value="Historical Fiction"/>
+        </insert>
+        <insert tableName="book">
+            <column name="title" value="Moby Dick"/>
+            <column name="author" value="Herman Melville"/>
+            <column name="isbn" value="9781503280786"/>
+            <column name="published_year" value="1851"/>
+            <column name="genre" value="Adventure"/>
+        </insert>
+        <insert tableName="book">
+            <column name="title" value="War and Peace"/>
+            <column name="author" value="Leo Tolstoy"/>
+            <column name="isbn" value="9780192833983"/>
+            <column name="published_year" value="1869"/>
+            <column name="genre" value="Historical Novel"/>
+        </insert>
+        <insert tableName="book">
+            <column name="title" value="Crime and Punishment"/>
+            <column name="author" value="Fyodor Dostoevsky"/>
+            <column name="isbn" value="9780486454115"/>
+            <column name="published_year" value="1866"/>
+            <column name="genre" value="Psychological Fiction"/>
+        </insert>
+        <insert tableName="book">
+            <column name="title" value="Pride and Prejudice"/>
+            <column name="author" value="Jane Austen"/>
+            <column name="isbn" value="9780679783268"/>
+            <column name="published_year" value="1813"/>
+            <column name="genre" value="Romance"/>
+        </insert>
+        <insert tableName="book">
+            <column name="title" value="The Catcher in the Rye"/>
+            <column name="author" value="J.D. Salinger"/>
+            <column name="isbn" value="9780316769488"/>
+            <column name="published_year" value="1951"/>
+            <column name="genre" value="Literary Fiction"/>
+        </insert>
+        <insert tableName="book">
+            <column name="title" value="The Hobbit"/>
+            <column name="author" value="J.R.R. Tolkien"/>
+            <column name="isbn" value="9780547928227"/>
+            <column name="published_year" value="1937"/>
+            <column name="genre" value="Fantasy"/>
+        </insert>
+        <insert tableName="book">
+            <column name="title" value="Fahrenheit 451"/>
+            <column name="author" value="Ray Bradbury"/>
+            <column name="isbn" value="9781451673319"/>
+            <column name="published_year" value="1953"/>
+            <column name="genre" value="Science Fiction"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

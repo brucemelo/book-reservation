@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="5" author="brucemelo">
+        <insert tableName="user_profile">
+            <column name="username" value="masterchief"/>
+            <column name="email" value="masterchief@example.com"/>
+        </insert>
+        <insert tableName="user_profile">
+            <column name="username" value="laracroft"/>
+            <column name="email" value="laracroft@example.com"/>
+        </insert>
+        <insert tableName="user_profile">
+            <column name="username" value="linkhero"/>
+            <column name="email" value="linkhero@example.com"/>
+        </insert>
+        <insert tableName="user_profile">
+            <column name="username" value="samusaran"/>
+            <column name="email" value="samusaran@example.com"/>
+        </insert>
+        <insert tableName="user_profile">
+            <column name="username" value="solid_snake"/>
+            <column name="email" value="solid_snake@example.com"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

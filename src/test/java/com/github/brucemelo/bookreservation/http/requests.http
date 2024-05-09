@@ -1,0 +1,32 @@
+###
+GET http://localhost:8080/api/books/search
+
+###
+GET http://localhost:8080/api/books/search?title=Hobbit
+
+###
+GET http://localhost:8080/api/users
+
+###
+GET http://localhost:8080/api/reviews
+
+###
+POST http://localhost:8080/api/reservations
+Content-Type: application/json
+
+{
+  "bookId": 1,
+  "userId": 1,
+  "reservationDate":"2024-12-01"
+}
+
+###
+POST http://localhost:8080/api/reviews
+Content-Type: application/json
+
+{
+  "bookId": 1,
+  "userId": 1,
+  "score": 4,
+  "comment":"Nice!"
+}
